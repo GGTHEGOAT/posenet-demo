@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PoseNet Demo</title>
+    <style>
+      body {
+        background: #222;
+        color: #fff;
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+      #canvas-container {
+        display: block;
+        margin: 20px auto;
+        width: 800px;
+        height: 500px;
+      }
+      canvas {
+        display: block;
+        margin: 0 auto;
+        border: 2px solid #fff;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>PoseNet Overlay Demo</h1>
+    <div id="canvas-container"></div>
+
+    <!-- Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ml5@0.12.2/dist/ml5.min.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
